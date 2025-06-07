@@ -1,0 +1,19 @@
+name: Build and Test
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select Xcode version
+        run: |
+          # Xcode version selection to be added
+          echo "Xcode setup placeholder"
+      - name: Build
+        run: |
+          # Xcode build steps to be added
+          echo "Build steps placeholder"
+      - name: Test
+        run: |
+          # Test execution steps to be added
+          echo "Test steps placeholder"
